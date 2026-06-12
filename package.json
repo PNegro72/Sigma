@@ -1,0 +1,19 @@
+{
+  "name": "sigma-ai-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page estatica para Sigma.AI, consultoria de Inteligencia Artificial para PYMEs.",
+  "scripts": {
+    "dev": "node scripts/dev-server.cjs",
+    "build": "node scripts/build.cjs",
+    "preview": "node scripts/dev-server.cjs dist 4173"
+  },
+  "keywords": [
+    "sigma-ai",
+    "inteligencia-artificial",
+    "pymes",
+    "landing-page"
+  ],
+  "author": "Sigma.AI",
+  "license": "UNLICENSED"
+}

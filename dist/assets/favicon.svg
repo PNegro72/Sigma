@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sigma.AI">
+  <rect width="64" height="64" rx="14" fill="#071114"/>
+  <path d="M45 14H19l15 18-15 18h26v-8H35l10-10-10-10h10z" fill="#53d6d0"/>
+  <circle cx="48" cy="48" r="5" fill="#96e072"/>
+</svg>
