@@ -5,26 +5,6 @@ const root = path.resolve(__dirname, "..");
 const src = path.join(root, "src");
 const dist = path.join(root, "dist");
 
-function removeDir(target) {
-  if (!fs.existsSync(target)) {
-    return;
-  }
-
-  fs.readdirSync(target).forEach((entry) => {
-    const fullPath = path.join(target, entry);
-    const stats = fs.lstatSync(fullPath);
-
-    if (stats.isDirectory()) {
-      removeDir(fullPath);
-      return;
-    }
-
-    fs.unlinkSync(fullPath);
-  });
-
-  fs.rmdirSync(target);
-}
-
 function copyDir(from, to) {
   fs.mkdirSync(to, { recursive: true });
 
@@ -42,7 +22,7 @@ function copyDir(from, to) {
   });
 }
 
-removeDir(dist);
+fs.rmSync(dist, { recursive: true, force: true, maxRetries: 5, retryDelay: 250 });
 copyDir(src, dist);
 
 console.log("Build listo en dist/");

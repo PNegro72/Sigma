@@ -1,0 +1,137 @@
+Quiero construir una landing page profesional para una pequeña consultora de servicios de Inteligencia Artificial llamada Sigma.AI, orientada a PYMEs.
+
+Contexto:
+- Soy consultor independiente, actualmente trabajo en una gran consultora, pero quiero apuntar al segmento PYME.
+- No quiero parecer una gran consultora corporativa.
+- Quiero transmitir cercanía, seniority técnico, claridad y foco en resultados de negocio.
+- La web debe generar confianza y lograr que el visitante pida una consulta inicial.
+- Debe poder hostearse fácilmente en Hostinger como sitio estático, subiendo el contenido generado a public_html.
+- Preferencia técnica: Astro, Vite + React, o HTML/CSS/JS estático. Elegir la opción más simple, performante y mantenible. Evitar backend.
+
+Objetivo del sitio:
+Conseguir reuniones de diagnóstico con dueños, gerentes o responsables de PYMEs que quieran aplicar IA pero no saben por dónde empezar.
+
+Mensaje principal:
+“Ayudamos a PYMEs a ahorrar tiempo, automatizar procesos y aprovechar sus datos con Inteligencia Artificial.”
+
+Tono:
+- Profesional pero cercano.
+- Claro, sin exceso de jerga técnica.
+- Orientado a problemas reales: tiempo perdido, tareas manuales, documentos dispersos, reportes lentos, atención al cliente, datos desaprovechados.
+- Evitar vender “modelos”, “prompts”, “RAG”, “LangChain”, etc.
+- Vender resultados: ahorro de tiempo, reducción de errores, automatización, mejor toma de decisiones.
+
+Estructura de la landing:
+1. Hero
+   - Título fuerte.
+   - Subtítulo.
+   - CTA principal: “Agendar consulta inicial”.
+   - CTA secundario: “Ver servicios”.
+   - Texto que indique: “Diagnóstico inicial para identificar oportunidades concretas de IA en tu empresa.”
+
+2. Sección problema
+   Mostrar dolores típicos de PYMEs:
+   - Procesos manuales repetitivos.
+   - Información dispersa en PDFs, mails, Excel y carpetas.
+   - Atención al cliente saturada.
+   - Reportes que llevan horas o días.
+   - Dudas sobre cómo aplicar IA sin gastar como una gran empresa.
+
+3. Sección servicios
+   Crear 4 cards:
+   a) Diagnóstico de oportunidades IA
+      - Relevamiento de procesos.
+      - Identificación de casos de uso.
+      - Priorización por impacto y facilidad.
+      - Roadmap inicial.
+
+   b) Automatización inteligente
+      - PDFs a Excel.
+      - Emails a base de datos.
+      - Reportes automáticos.
+      - Integración con herramientas existentes.
+
+   c) Asistentes IA para documentos
+      - Búsqueda en contratos, manuales, políticas, procedimientos.
+      - Preguntas en lenguaje natural.
+      - Respuestas con contexto de documentos propios.
+
+   d) Copilotos de negocio
+      - Consultas sobre ventas, clientes, operaciones o finanzas.
+      - Análisis de datos internos.
+      - Apoyo a la toma de decisiones.
+
+4. Sección “Cómo trabajamos”
+   Pasos:
+   - 1. Reunión inicial.
+   - 2. Diagnóstico.
+   - 3. Prototipo rápido.
+   - 4. Implementación.
+   - 5. Mejora continua.
+
+5. Sección diferenciación
+   Mensajes clave:
+   - Soluciones pensadas para PYMEs.
+   - Implementaciones simples y medibles.
+   - Sin proyectos eternos.
+   - Sin costos de gran consultora.
+   - Foco en casos de uso concretos.
+
+6. Sección ejemplos de casos de uso
+   Incluir ejemplos breves:
+   - Estudio contable: extracción automática de datos desde facturas.
+   - Inmobiliaria: asistente para responder consultas frecuentes.
+   - Empresa industrial: búsqueda inteligente sobre documentación técnica.
+   - Comercio/distribuidora: reportes automáticos de ventas e inventario.
+   - RRHH: análisis y clasificación inicial de CVs.
+
+7. Sección CTA final
+   Título:
+   “¿Querés saber dónde puede ayudarte la IA en tu empresa?”
+   Botón:
+   “Agendar una consulta”
+   Texto:
+   “En una primera conversación analizamos tus procesos y detectamos oportunidades concretas.”
+
+8. Footer
+   - Sigma.AI
+   - Servicios de Inteligencia Artificial para PYMEs
+   - Email placeholder: contacto@sigma-ai.com
+   - LinkedIn placeholder
+   - Año actual
+
+Requisitos visuales:
+- Diseño moderno, sobrio y tecnológico.
+- Colores sugeridos: fondo oscuro azul/negro, acentos en celeste, violeta o verde tecnológico.
+- Tipografía limpia.
+- Responsive mobile-first.
+- Animaciones sutiles, no exageradas.
+- Buen contraste.
+- Cards limpias.
+- CTA visible.
+- No usar imágenes genéricas exageradas de robots.
+- Puede usar iconos simples SVG o librería liviana.
+
+Requisitos técnicos:
+- Debe poder ejecutarse localmente con npm install y npm run dev.
+- Debe generar build estático con npm run build.
+- Incluir instrucciones en README.md para subir a Hostinger:
+  1. Ejecutar npm run build.
+  2. Subir el contenido de dist/ a public_html.
+- No usar backend.
+- Para el formulario de contacto, dejar opción simple:
+  - botón mailto
+  - o link a Calendly placeholder
+  - o formulario HTML preparado para conectar luego con Formspree/Netlify Forms.
+- Cuidar SEO básico:
+  - title
+  - meta description
+  - Open Graph
+  - headings correctos
+  - favicon placeholder
+- Incluir contenido real en español, no lorem ipsum.
+- Preparar componentes reutilizables si se usa React/Astro.
+- Código limpio, simple y documentado.
+
+Resultado esperado:
+Generar todo el proyecto completo con estructura de carpetas, componentes, estilos y README.
